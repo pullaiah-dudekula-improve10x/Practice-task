@@ -26,7 +26,7 @@ public class SignupInfoActivity extends AppCompatActivity {
             String confirmPasswordText = confirmTxt.getText().toString();
             intent.putExtra("emailId", emailId);
             startActivity(intent);
-            Toast.makeText(this, emailId, Toast.LENGTH_SHORT).show();
+
         });
     }
 }

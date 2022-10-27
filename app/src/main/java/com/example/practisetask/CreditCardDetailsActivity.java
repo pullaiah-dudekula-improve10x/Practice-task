@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 public class CreditCardDetailsActivity extends AppCompatActivity {
 
@@ -14,7 +13,8 @@ public class CreditCardDetailsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_credit_card_details);
-
+        Intent bankIntent = getIntent();
+        Bundle bundle = bankIntent.getExtras();
         Button back8Btn = findViewById(R.id.back9_btn);
         back8Btn.setOnClickListener(view -> {
             finish();
@@ -22,17 +22,15 @@ public class CreditCardDetailsActivity extends AppCompatActivity {
 
         Button next8Btn = findViewById(R.id.next9_btn);
         next8Btn.setOnClickListener(view -> {
-            Intent bankIntent = getIntent();
-            Bundle bundle = bankIntent.getExtras();
-            Intent creditCardIntent = new Intent(this,IdentityActivity.class);
-            EditText cardNumberTxt = findViewById(R.id.cardnumber1_txt);
+            EditText cardNumberTxt = findViewById(R.id.creditcard_number_txt);
             String cardNumberText = cardNumberTxt.getText().toString();
-            EditText cardHolderTxt = findViewById(R.id.cardholder_txt);
+            EditText cardHolderTxt = findViewById(R.id.creditcard_holder_txt);
             String cardHolderText = cardHolderTxt.getText().toString();
-            EditText expireTxt = findViewById(R.id.expire2_txt);
+            EditText expireTxt = findViewById(R.id.creditcard_expire_txt);
             String expireText = expireTxt.getText().toString();
-            TextView cvvTxt = findViewById(R.id.cvv2_txt);
+            EditText cvvTxt = findViewById(R.id.creditcard_cvv_txt);
             String cvvText = cvvTxt.getText().toString();
+            Intent creditCardIntent = new Intent(this,IdentityActivity.class);
             creditCardIntent.putExtras(bundle);
             creditCardIntent.putExtra("cardNumberText", cardNumberText);
             creditCardIntent.putExtra("cardHolderText", cardHolderText);
@@ -40,7 +38,5 @@ public class CreditCardDetailsActivity extends AppCompatActivity {
             creditCardIntent.putExtra("cvvText", cvvText);
             startActivity(creditCardIntent);
         });
-
-
     }
 }

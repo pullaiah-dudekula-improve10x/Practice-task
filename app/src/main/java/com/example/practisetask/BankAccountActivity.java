@@ -14,22 +14,22 @@ public class BankAccountActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bank_account);
-
+        Intent professionalIntent = getIntent();
+        Bundle bundle = professionalIntent.getExtras();
         Button back3Btn = findViewById(R.id.back3_btn);
         back3Btn.setOnClickListener(view -> {
             finish();
         });
         Button next3Btn = findViewById(R.id.next3_btn);
         next3Btn.setOnClickListener(view -> {
-            Intent professionalIntent = getIntent();
-            Bundle bundle = professionalIntent.getExtras();
+
             //String emailId = professionalIntent.getStringExtra("emailId");
            // String userName = professionalIntent.getStringExtra("userName");
            // String firstNameText = professionalIntent.getStringExtra("firstNameText");
             //String lastNameText = professionalIntent.getStringExtra("lastNameText");
             //String totalText = professionalIntent.getStringExtra("totalText");
            // String designText = professionalIntent.getStringExtra("designText");
-            Intent bankIntent = new Intent(this, CreditCardDetailsActivity.class);
+
             EditText bankNameTxt = findViewById(R.id.bank_name_txt);
             String bankNameText = bankNameTxt.getText().toString();
             EditText accountHolderNameTxt = findViewById(R.id.accountholder_name_txt);
@@ -45,6 +45,7 @@ public class BankAccountActivity extends AppCompatActivity {
             //bankIntent.putExtra("companyText", companyText);
             //bankIntent.putExtra("totalText", totalText);
             //bankIntent.putExtra("designText", designText);
+            Intent bankIntent = new Intent(this, CreditCardDetailsActivity.class);
             bankIntent.putExtras(bundle);
             bankIntent.putExtra("bankNameText", bankNameText);
             bankIntent.putExtra("accountHolderNameText", accountHolderNameText);

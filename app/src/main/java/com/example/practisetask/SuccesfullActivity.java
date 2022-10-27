@@ -72,19 +72,20 @@ public class SuccesfullActivity extends AppCompatActivity {
         accountHolderNameTxt.setText(accountHolderNameText);
         TextView accountNumberTxt = findViewById(R.id.accountnumber1_txt);
         accountNumberTxt.setText(accountNumberText);
+        TextView cardNumberTxt = findViewById(R.id.card_number_txt);
+        cardNumberTxt.setText(cardNumberText);
+        TextView cardHolderTxt = findViewById(R.id.card_holder_txt);
+        cardHolderTxt.setText(cardHolderText);
+        TextView expireTxt = findViewById(R.id.card_expire_txt);
+        expireTxt.setText(expireText);
+        TextView cvvTxt = findViewById(R.id.card_cvv_txt);
+        cvvTxt.setText(cvvText);
         TextView ifscTxt = findViewById(R.id.ifsc_txt);
         ifscTxt.setText(ifscText);
         TextView panNumberTxt = findViewById(R.id.numberpan_txt);
         panNumberTxt.setText(panNumberText);
         TextView adharNumberTxt = findViewById(R.id.numberadhar_txt);
         adharNumberTxt.setText(aadharNumberText);
-        TextView cardNumberTxt = findViewById(R.id.cardnumber1_txt);
-        cardNumberTxt.setText(cardNumberText);
-        TextView cardHolderTxt = findViewById(R.id.cardholder1_txt);
-        cardHolderTxt.setText(cardHolderText);
-        TextView expireTxt = findViewById(R.id.expire1_txt);
-        expireTxt.setText(expireText);
-        TextView cvvTxt = findViewById(R.id.cvv1_txt);
-        cvvTxt.setText(cvvText);
+
     }
 }

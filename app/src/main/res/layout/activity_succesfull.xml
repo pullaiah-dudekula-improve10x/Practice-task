@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:layout_margin="0dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".SuccesfullActivity">
 
     <LinearLayout
@@ -42,14 +43,14 @@
             android:layout_weight="1"
             android:text="Email"
             android:textColor="#2C2525"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/emailId5_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
 
@@ -66,14 +67,14 @@
             android:layout_weight="1"
             android:text="UserName"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/username1_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -89,14 +90,14 @@
             android:layout_weight="1"
             android:text="FirestName"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/firstname1_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -112,14 +113,14 @@
             android:layout_weight="1"
             android:text="LastName"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/lastname1_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -134,13 +135,14 @@
             android:layout_weight="1"
             android:text="H No/Apartment"
             android:textColor="#171515"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/apartment1_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -155,14 +157,14 @@
             android:layout_weight="1"
             android:text="Street Name"
             android:textColor="#151414"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/streetname1_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -177,14 +179,14 @@
             android:layout_weight="1"
             android:text="City"
             android:textColor="#191717"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/city1_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -199,13 +201,14 @@
             android:layout_weight="1"
             android:text="State"
             android:textColor="#2C2828"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/state1_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -220,14 +223,14 @@
             android:layout_weight="1"
             android:text="Country"
             android:textColor="#151414"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/country1_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -242,14 +245,14 @@
             android:layout_weight="1"
             android:text="Date Of Birth"
             android:textColor="#151313"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/date_of_birth_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -264,14 +267,14 @@
             android:layout_weight="1"
             android:text="Place Of Birth"
             android:textColor="#171515"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/place_of_birth_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -287,14 +290,14 @@
             android:layout_weight="1"
             android:text="Current company"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/currentcompany1_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -310,14 +313,14 @@
             android:layout_weight="1"
             android:text="Total Experiance"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/total_experiance_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -333,14 +336,14 @@
             android:layout_weight="1"
             android:text="Designation"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/designation1_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -355,14 +358,14 @@
             android:layout_weight="1"
             android:text="BankName"
             android:textColor="#100F0F"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/bankname_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -377,14 +380,14 @@
             android:layout_weight="1"
             android:text="AccountholderName"
             android:textColor="#0E0D0D"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/accountholder_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -399,14 +402,14 @@
             android:layout_weight="1"
             android:text="AccountNumber"
             android:textColor="#171616"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/accountnumber1_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -421,14 +424,14 @@
             android:layout_weight="1"
             android:text="Card Number"
             android:textColor="#121010"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView52"
+            android:id="@+id/card_number_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -443,14 +446,14 @@
             android:layout_weight="1"
             android:text="Card Holder"
             android:textColor="#171515"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView62"
+            android:id="@+id/card_holder_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -465,14 +468,14 @@
             android:layout_weight="1"
             android:text="Expire"
             android:textColor="#151414"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView64"
+            android:id="@+id/card_expire_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -487,14 +490,14 @@
             android:layout_weight="1"
             android:text="Cvv"
             android:textColor="#151414"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/textView66"
+            android:id="@+id/card_cvv_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -509,14 +512,14 @@
             android:layout_weight="1"
             android:text="Ifsc"
             android:textColor="#121010"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/ifsc_txt"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -531,13 +534,14 @@
             android:layout_weight="1"
             android:text="Pan Number"
             android:textColor="#171616"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/numberpan_txt"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textSize="16sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -552,7 +556,7 @@
             android:layout_weight="1"
             android:text="AdharNumber"
             android:textColor="#232020"
-            android:textSize="20sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/numberadhar_txt"
