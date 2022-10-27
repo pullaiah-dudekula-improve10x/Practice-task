@@ -65,7 +65,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="UserName"
+            android:text="User Name"
             android:textColor="#100F0F"
             android:textSize="16sp" />
 
@@ -88,7 +88,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="FirestName"
+            android:text="First Name"
             android:textColor="#100F0F"
             android:textSize="16sp" />
 
@@ -111,7 +111,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="LastName"
+            android:text="Last Name"
             android:textColor="#100F0F"
             android:textSize="16sp" />
 
@@ -133,7 +133,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="H No/Apartment"
+            android:text="H.No/Apartment"
             android:textColor="#171515"
             android:textSize="16sp" />
 
@@ -243,7 +243,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Date Of Birth"
+            android:text="Date of  Birth"
             android:textColor="#151313"
             android:textSize="16sp" />
 
@@ -265,7 +265,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Place Of Birth"
+            android:text="Place of Birth"
             android:textColor="#171515"
             android:textSize="16sp" />
 
@@ -311,7 +311,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Total Experiance"
+            android:text="Total Experience"
             android:textColor="#100F0F"
             android:textSize="16sp" />
 
@@ -356,7 +356,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="BankName"
+            android:text="Bank Name"
             android:textColor="#100F0F"
             android:textSize="16sp" />
 
@@ -378,7 +378,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="AccountholderName"
+            android:text="Account Holder"
             android:textColor="#0E0D0D"
             android:textSize="16sp" />
 
@@ -400,7 +400,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="AccountNumber"
+            android:text="Account Number"
             android:textColor="#171616"
             android:textSize="16sp" />
 
@@ -466,7 +466,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Expire"
+            android:text="Expiry"
             android:textColor="#151414"
             android:textSize="16sp" />
 
@@ -488,7 +488,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cvv"
+            android:text="CVV"
             android:textColor="#151414"
             android:textSize="16sp" />
 
@@ -510,7 +510,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Ifsc"
+            android:text="IFSC Code"
             android:textColor="#121010"
             android:textSize="16sp" />
 
@@ -532,7 +532,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Pan Number"
+            android:text="PAN Number"
             android:textColor="#171616"
             android:textSize="16sp" />
 
@@ -554,7 +554,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="AdharNumber"
+            android:text="Aadhar Number"
             android:textColor="#232020"
             android:textSize="16sp" />
 

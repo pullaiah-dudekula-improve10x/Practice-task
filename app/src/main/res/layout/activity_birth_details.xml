@@ -60,13 +60,17 @@
             android:layout_width="108dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Back" />
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#B1B0B0"
+            android:text="Back"
+            android:textColor="#131212" />
 
         <Button
             android:id="@+id/next6_btn"
             android:layout_width="108dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
             android:text="Next" />
     </LinearLayout>
 </LinearLayout>

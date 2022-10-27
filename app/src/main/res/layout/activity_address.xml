@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Address"
+        android:textColor="#0B0A0A"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -22,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="H no /Apartment"
+        android:text="H.no /Apartment"
         android:textColor="#0E0D0D"
         android:textSize="20sp" />
 
@@ -107,13 +108,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="Back" />
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#B1B0B0"
+            android:text="Back"
+            android:textColor="#191717" />
 
         <Button
             android:id="@+id/next5_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="150dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
             android:text="Next" />
     </LinearLayout>
 </LinearLayout>

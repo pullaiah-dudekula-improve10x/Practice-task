@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Bnak Name"
+        android:text="Bank Name"
         android:textColor="#100F0F"
         android:textSize="20sp" />
 
@@ -93,13 +93,15 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:text="Back" />
+            android:backgroundTint="#B1B0B0"
+            android:text="Back"
+            android:textColor="#191616" />
 
         <Button
             android:id="@+id/next3_btn"
             android:layout_width="101dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="130dp"
             android:layout_marginTop="10dp"
             android:text="Next" />
 
