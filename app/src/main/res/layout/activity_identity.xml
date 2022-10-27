@@ -22,6 +22,7 @@
         android:id="@+id/textView40"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Pan Number"
         android:textColor="#1B1919"
         android:textSize="20sp" />
@@ -37,6 +38,7 @@
         android:id="@+id/textView42"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Aadhar Number"
         android:textColor="#0B0A0A"
         android:textSize="20sp" />

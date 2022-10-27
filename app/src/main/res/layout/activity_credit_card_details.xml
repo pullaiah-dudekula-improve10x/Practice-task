@@ -22,6 +22,7 @@
         android:id="@+id/textView44"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Card Number"
         android:textColor="#1E1B1B"
         android:textSize="20sp" />
@@ -37,6 +38,7 @@
         android:id="@+id/textView46"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Card Holder"
         android:textColor="#191717"
         android:textSize="20sp" />
@@ -57,6 +59,7 @@
             android:id="@+id/textView48"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:layout_weight="1"
             android:text="Expire"
             android:textColor="#1C1A1A"
@@ -66,6 +69,7 @@
             android:id="@+id/textView49"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:layout_weight="1"
             android:text="Cvv"
             android:textColor="#131010"

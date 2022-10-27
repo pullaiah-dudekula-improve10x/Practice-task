@@ -21,6 +21,7 @@
         android:id="@+id/textView26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="H no /Apartment"
         android:textColor="#0E0D0D"
         android:textSize="20sp" />
@@ -36,6 +37,7 @@
         android:id="@+id/textView29"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Street"
         android:textColor="#0E0D0D"
         android:textSize="20sp" />
@@ -51,6 +53,7 @@
         android:id="@+id/textView32"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="City"
         android:textColor="#0E0D0D"
         android:textSize="20sp" />
@@ -66,6 +69,7 @@
         android:id="@+id/textView34"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="State"
         android:textColor="#0E0D0D"
         android:textSize="20sp" />
@@ -81,6 +85,7 @@
         android:id="@+id/textView35"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Country"
         android:textColor="#0E0D0D"
         android:textSize="20sp" />

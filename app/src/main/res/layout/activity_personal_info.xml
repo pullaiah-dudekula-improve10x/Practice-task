@@ -22,6 +22,7 @@
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="User Name"
         android:textColor="#121111"
         android:textSize="20sp" />
