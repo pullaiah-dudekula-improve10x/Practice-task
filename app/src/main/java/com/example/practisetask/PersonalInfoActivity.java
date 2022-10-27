@@ -22,7 +22,6 @@ public class PersonalInfoActivity extends AppCompatActivity {
         next1Btn.setOnClickListener(view -> {
             Intent intent = getIntent();
             Bundle bundle = intent.getExtras();
-            //String emailId = intent.getStringExtra("emailId");
             Intent personalIntent = new Intent(this, AddressActivity.class);
             EditText userNameTxt = findViewById(R.id.username_txt);
             String userName = userNameTxt.getText().toString();
@@ -30,13 +29,12 @@ public class PersonalInfoActivity extends AppCompatActivity {
             String firstNameText = firstNameTxt.getText().toString();
             EditText lastnameTxt = findViewById(R.id.lastname_txt);
             String lastNameText = lastnameTxt.getText().toString();
-           // personalIntent.putExtra("emailId", emailId);
             personalIntent.putExtras(bundle);
             personalIntent.putExtra("userName", userName);
             personalIntent.putExtra("firstNameText", firstNameText);
             personalIntent.putExtra("lastNameText", lastNameText);
             startActivity(personalIntent);
-            //Toast.makeText(this, emailId + " " + userName + " " + firstNameText + " " + lastNameText  , Toast.LENGTH_SHORT).show();
+
         });
     }
 }

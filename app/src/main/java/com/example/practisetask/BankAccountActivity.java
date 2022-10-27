@@ -23,13 +23,6 @@ public class BankAccountActivity extends AppCompatActivity {
         Button next3Btn = findViewById(R.id.next3_btn);
         next3Btn.setOnClickListener(view -> {
 
-            //String emailId = professionalIntent.getStringExtra("emailId");
-           // String userName = professionalIntent.getStringExtra("userName");
-           // String firstNameText = professionalIntent.getStringExtra("firstNameText");
-            //String lastNameText = professionalIntent.getStringExtra("lastNameText");
-            //String totalText = professionalIntent.getStringExtra("totalText");
-           // String designText = professionalIntent.getStringExtra("designText");
-
             EditText bankNameTxt = findViewById(R.id.bank_name_txt);
             String bankNameText = bankNameTxt.getText().toString();
             EditText accountHolderNameTxt = findViewById(R.id.accountholder_name_txt);
@@ -38,13 +31,6 @@ public class BankAccountActivity extends AppCompatActivity {
             String accountNumberText = accountNumberTxt.getText().toString();
             EditText ifscCode = findViewById(R.id.ifsc_code_txt);
             String ifscText = ifscCode.getText().toString();
-            //bankIntent.putExtra("emailId", emailId);
-            //bankIntent.putExtra("userName", userName);
-           // bankIntent.putExtra("firstNameText",firstNameText);
-           // bankIntent.putExtra("lastNameText", lastNameText);
-            //bankIntent.putExtra("companyText", companyText);
-            //bankIntent.putExtra("totalText", totalText);
-            //bankIntent.putExtra("designText", designText);
             Intent bankIntent = new Intent(this, CreditCardDetailsActivity.class);
             bankIntent.putExtras(bundle);
             bankIntent.putExtra("bankNameText", bankNameText);

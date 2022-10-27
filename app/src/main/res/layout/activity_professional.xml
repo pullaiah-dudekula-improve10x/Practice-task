@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".ProfessionalInfoActivity">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="PROFESSIONAL INFO"
+        android:text="Professional info"
         android:textColor="#090808"
         android:textSize="24sp"
         android:textStyle="bold" />

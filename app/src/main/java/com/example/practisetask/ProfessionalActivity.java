@@ -22,10 +22,6 @@ public class ProfessionalActivity extends AppCompatActivity {
         next2Btn.setOnClickListener(view -> {
             Intent birthIntent = getIntent();
             Bundle bundle = birthIntent.getExtras();
-            //String emailId = personalIntent.getStringExtra("emailId");
-           // String userName = personalIntent.getStringExtra("userName");
-            //String firstNameText = personalIntent.getStringExtra("firstNameText");
-            //String lastNameText = personalIntent.getStringExtra("lastNameText");
             Intent professionalIntent  = new Intent(this,BankAccountActivity.class);
             EditText companyTxt = findViewById(R.id.company_txt);
             String companyText = companyTxt.getText().toString();
@@ -34,10 +30,6 @@ public class ProfessionalActivity extends AppCompatActivity {
             EditText designationTxt = findViewById(R.id.designation_txt);
             String designText = designationTxt.getText().toString();
             professionalIntent.putExtras(bundle);
-            //professionalIntent.putExtra("emailId", emailId);
-           // professionalIntent.putExtra("userName", userName);
-           // professionalIntent.putExtra("firstNameText",firstNameText);
-            //professionalIntent.putExtra("lastNameText", lastNameText);
             professionalIntent.putExtra("companyText", companyText);
             professionalIntent.putExtra("totalText", totalText);
             professionalIntent.putExtra("designText", designText);
